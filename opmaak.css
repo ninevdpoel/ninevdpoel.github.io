@@ -20,11 +20,11 @@
     padding: 0;
     background-color: #333;
 }
-li {
+#ul2 {
     float:left;
 }
 
-li a {
+#ul2 a {
     display: block;
     color:white;
     text-align: center;
@@ -32,11 +32,11 @@ li a {
     background-color: #333;
 }
 
-li a:hover {
+#ul2 a:hover {
     background-color:deeppink;
 
 }
 #rgb {
     list-style-type: square;
-    
+
 }
