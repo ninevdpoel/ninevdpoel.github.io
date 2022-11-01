@@ -36,4 +36,7 @@ li a:hover {
     background-color:deeppink;
 
 }
-
+#rgb {
+    list-style-type: square;
+    
+}
