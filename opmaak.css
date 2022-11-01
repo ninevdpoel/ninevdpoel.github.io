@@ -20,11 +20,13 @@
     padding: 0;
     background-color: #333;
 }
-#ul2 a{
-    float:left;
+li {
+    float: left;
 }
 
-#ul2 a {
+li a {
+    border: 2px;
+    ;
     display: block;
     color:white;
     text-align: center;
@@ -32,7 +34,7 @@
     background-color: #333;
 }
 
-#ul2 a:hover {
+li a:hover {
     background-color:deeppink;
 
 }
