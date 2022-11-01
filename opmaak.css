@@ -20,23 +20,23 @@
     padding: 0;
    background-color: #333;
 }
-li   {
+li #ul2   {
     border: 2px solid red;
     border-radius: 8px;
     padding: 5px;
 }
-li {
+li #ul2{
     float: left;
 }
 
-li a {
+li #ul2 a {
     display: block;
     color:white;
     text-align: center;
     padding: 14px 16px;
 }
 
-li a:hover {
+li #ul2 a:hover {
     background-color:deeppink;
 
 }
