@@ -20,11 +20,7 @@
     padding: 0;
    background-color: #333;
 }
-li #ul2   {
-    border: 2px solid red;
-    border-radius: 8px;
-    padding: 5px;
-}
+
 li #ul2{
     float: left;
 }
@@ -34,6 +30,7 @@ li #ul2 a {
     color:white;
     text-align: center;
     padding: 14px 16px;
+    background-color: #333;
 }
 
 li #ul2 a:hover {
