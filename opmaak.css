@@ -14,18 +14,18 @@
     background-color: lightgrey;
 }
 
-#ul2 {
+ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
    background-color: #333;
 }
 
-li #ul2{
+li {
     float: left;
 }
 
-li #ul2 a {
+li a {
     display: block;
     color:white;
     text-align: center;
