@@ -14,7 +14,7 @@
     background-color: lightgrey;
 }
 
-ul {
+ul a {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -33,7 +33,7 @@ li a {
     background-color: #333;
 }
 
-li #ul2 a:hover {
+li a:hover {
     background-color:deeppink;
 
 }
