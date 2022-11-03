@@ -34,8 +34,8 @@
     text-decoration: none;
   }
   
-  li a:hover {
-    background-color:rgb(89, 89, 89);
+  li a :hover {
+    background-color:#5b5b5b;
     color:white;
     
 
