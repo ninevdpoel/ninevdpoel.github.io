@@ -19,7 +19,7 @@
     margin: 0;
     padding: 0;
     overflow: hidden;
-    color: #5b5b5b;
+    color: #818181;
   }
   
   li {
@@ -28,14 +28,14 @@
   
   li a {
     display: block;
-    color: rgb(99, 99, 99);
+    color: rgb(81, 81, 81);
     text-align: center;
     padding: 16px;
     text-decoration: none;
   }
   
   li a:hover {
-    background-color:#2e2e2e;
+    background-color:#a5a5a5;
     
 
   }
