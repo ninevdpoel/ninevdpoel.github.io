@@ -38,8 +38,5 @@
     background-color:#a5a5a5;
   }
 
-/* Toon de dropdown-inhoud wanneer de knop wordt aangeklikt (of gehoverd) */
-.dropdown:hover .dropdown-content {
-  display: block;
-}
+
 
