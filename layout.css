@@ -40,6 +40,30 @@
   
   /* Change the background color of the dropdown button when the dropdown content is shown */
   .dropdown:hover .dropbtn {background-color: darkgrey}
+  
+  #ul2 { /*hier begint de opmaak van mijn koppelingen met de pagina's die ik horizontaal wilde hebben.*/
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    color: #818181;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: rgb(81, 81, 81);
+    text-align: center;
+    padding: 26px;
+    text-decoration: none;
+  }
+  /* Als je met je muis nu over de knop hovert, verandert de knop van kleur*/
+  li a:hover {
+    background-color:#a5a5a5;
+  }
 
 
 
