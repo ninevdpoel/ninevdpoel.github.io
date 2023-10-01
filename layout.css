@@ -1,6 +1,6 @@
 
 /* Dropdown Button */
-.dropbtn {
+.top-level-menu {
     background-color: lightgrey;
     color: white;
     padding: 16px;
@@ -15,7 +15,7 @@
   }
   
   /* Dropdown Content (Hidden by Default) */
-  .dropdown-content {
+  .second-level-menu {
     display: none;
     position: absolute;
     background-color: lightgrey;
@@ -25,7 +25,7 @@
   }
   
   /* Links inside the dropdown */
-  .dropdown-content a {
+  .third-level-menu {
     color: black;
     padding: 12px 16px;
     text-decoration: none;
@@ -33,13 +33,13 @@
   }
   
   /* Change color of dropdown links on hover */
-  .dropdown-content a:hover {background-color: a5a5a5; }
+  .second-level-menu a:hover {background-color: a5a5a5; }
   
   /* Show the dropdown menu on hover */
-  .dropdown:hover .dropdown-content {display: block;}
+  .dropdown:hover .second-level-menu {display: block;}
   
   /* Change the background color of the dropdown button when the dropdown content is shown */
-  .dropdown:hover .dropbtn {background-color: darkgrey}
+  .dropdown:hover .top-level-menu {background-color: darkgrey}
   
   #ul2 { /*hier begint de opmaak van mijn koppelingen met de pagina's die ik horizontaal wilde hebben.*/
     list-style-type: none;
