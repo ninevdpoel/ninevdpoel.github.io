@@ -33,7 +33,7 @@
   }
   
   /* Change color of dropdown links on hover */
-  .dropdown-content a:hover {background-color: darkgrey }
+  .dropdown-content a:hover {background-color: a5a5a5; }
   
   /* Show the dropdown menu on hover */
   .dropdown:hover .dropdown-content {display: block;}
@@ -52,7 +52,7 @@
   li {
     float: left;
   }
-  
+
   li a {
     display: block;
     color: rgb(81, 81, 81);
