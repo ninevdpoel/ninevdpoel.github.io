@@ -1,71 +1,44 @@
-
 /* Dropdown Button */
-.top-level-menu {
-    background-color: lightgrey;
-    color: white;
-    padding: 16px;
-    font-size: 16px;
-    border: none;
-  }
-  
-  /* The container <div> - needed to position the dropdown content */
-  .dropdown {
-    position: relative;
-    display: inline-block;
-  }
-  
-  /* Dropdown Content (Hidden by Default) */
-  .second-level-menu {
-    display: none;
-    position: absolute;
-    background-color: lightgrey;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
-  }
-  
-  /* Links inside the dropdown */
-  .third-level-menu {
-    color: black;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-  }
-  
-  /* Change color of dropdown links on hover */
-  .second-level-menu a:hover {background-color: a5a5a5; }
-  
-  /* Show the dropdown menu on hover */
-  .dropdown:hover .second-level-menu {display: block;}
-  
-  /* Change the background color of the dropdown button when the dropdown content is shown */
-  .dropdown:hover .top-level-menu {background-color: darkgrey}
-  
-  #ul2 { /*hier begint de opmaak van mijn koppelingen met de pagina's die ik horizontaal wilde hebben.*/
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    color: #818181;
-  }
-  
-  li {
-    float: left;
-  }
+.dropbtn {
+  background-color: #04AA6D;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
 
-  li a {
-    display: block;
-    color: rgb(81, 81, 81);
-    text-align: center;
-    padding: 26px;
-    text-decoration: none;
-  }
-  /* Als je met je muis nu over de knop hovert, verandert de knop van kleur*/
-  li a:hover {
-    background-color:#a5a5a5;
-  }
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
 
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
 
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #ddd;}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {background-color: #3e8e41;}
 
 
 
