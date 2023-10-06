@@ -19,11 +19,11 @@
     margin: 0;
     padding: 0;
     overflow: hidden;
-    border-block-color: #B2E4FB;
   }
   
   li {
     float: left;
+    color:#B2E4FB;
   }
   
   li a {
