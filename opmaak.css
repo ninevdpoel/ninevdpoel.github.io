@@ -19,7 +19,7 @@
     margin: 0;
     padding: 0;
     overflow: hidden;
-    color: black;
+    color: #3F9BE7;
   }
   
   li {
@@ -28,7 +28,7 @@
   
   li a {
     display: block;
-    color: #3F9BE7;
+    color: black ;
     text-align: center;
     padding: 26px;
     text-decoration: none;
