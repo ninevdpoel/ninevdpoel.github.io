@@ -19,7 +19,7 @@
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #B2E4FB;
+    border-block-color: #B2E4FB;
   }
   
   li {
