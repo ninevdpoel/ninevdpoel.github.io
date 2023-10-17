@@ -49,6 +49,10 @@
   color: #818181;
 }
 
+#ul3 li a:hover {
+  background-color:#3F9BE7;
+}
+
 li {
   float: left;
 }
@@ -65,10 +69,6 @@ li a {
 #body1 { /* Achtergrond kleur*/
   color:black;
   background-color:lightgrey 
-}
-/* Als je met je muis nu over de knop hovert, verandert de knop van kleur*/
-li a:hover {
-  background-color:#3F9BE7;
 }
 
 
