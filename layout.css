@@ -60,10 +60,7 @@ li a {
   padding: 26px;
   text-decoration: none;
 }
-/* Als je met je muis nu over de knop hovert, verandert de knop van kleur*/
-li a:hover {
-  background-color:#a5a5a5;
-}
+
 
 #body1 { /* Achtergrond kleur*/
   color:black;
