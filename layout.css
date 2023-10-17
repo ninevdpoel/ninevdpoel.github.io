@@ -69,7 +69,10 @@ li a:hover {
   color:black;
   background-color:lightgrey 
 }
-
+/* Als je met je muis nu over de knop hovert, verandert de knop van kleur*/
+li a:hover {
+  background-color:#3F9BE7;
+}
 
 
 
