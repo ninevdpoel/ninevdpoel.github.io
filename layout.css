@@ -71,7 +71,46 @@ li a {
   background-color:lightgrey 
 }
 
+/*Vanaf hier opmaak.css maar dan kijken of dit ook zo werkt */
+#body1 { /* Achtergrond kleur*/
+  color:black;
+  background-color:lightgrey 
+}
 
+
+#body2 {  /* Achtergrond kleur*/
+  color:black;
+  background-color: lightgrey;
+}
+
+#body3 {  /* Achtergrond kleur*/
+  color:black;
+  background-color: lightgrey;
+}
+
+#ul2 { /*hier begint de opmaak van mijn koppelingen met de pagina's die ik horizontaal wilde hebben.*/
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li {
+  float: left;
+  
+}
+
+li a {
+  display: block;
+  color: black ;
+  text-align: center;
+  padding: 26px;
+  text-decoration: none;
+}
+/* Als je met je muis nu over de knop hovert, verandert de knop van kleur*/
+li a:hover {
+  background-color:#3F9BE7;
+}
 
 
 
