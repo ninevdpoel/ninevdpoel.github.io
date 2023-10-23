@@ -48,13 +48,34 @@
   overflow: hidden;
   color: #000000;
 }
+#ul3 { /*hier begint de opmaak van mijn koppelingen met de pagina's die ik horizontaal wilde hebben.*/
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
 
+li {
+  float: left;
+  
+}
+
+li a {
+  display: block;
+  color: black ;
+  text-align: center;
+  padding: 26px;
+  text-decoration: none;
+}
 #ul3 li a:hover {
   background-color:#3F9BE7;
 }
 
 
-
+#body1 { /* Achtergrond kleur*/
+  color:black;
+  background-color:lightgrey 
+}
 
 
 
