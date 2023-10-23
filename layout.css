@@ -38,7 +38,7 @@
 .dropdown:hover .dropdown-content {display: block;}
 
 /* Change the background color of the dropdown button when the dropdown content is shown */
-.dropdown:hover .dropbtn {background-color: #3e8e41;}
+.dropdown:hover .dropbtn {background-color: #01af07;}
 
 
 #ul3 { /*hier begint de opmaak van mijn koppelingen met de pagina's die ik horizontaal wilde hebben.*/
@@ -71,7 +71,13 @@ li a {
   background-color:lightgrey 
 }
 
+
+
 /*Vanaf hier opmaak.css maar dan kijken of dit ook zo werkt */
+
+
+
+
 #body1 { /* Achtergrond kleur*/
   color:black;
   background-color:lightgrey 
